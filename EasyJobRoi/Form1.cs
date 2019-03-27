@@ -44,6 +44,7 @@ namespace EasyJobRoi
                                     LEFT OUTER JOIN[easyjob].[dbo].[StockType2Job] AS Type2Job
                                     ON Type2Job.IdStockType2Job = Item2Job.IdStockType2Job
 
+
                                     GROUP BY Item.IdStockItem,
                                     Item.SerialNumber,
                                     Type.Caption
